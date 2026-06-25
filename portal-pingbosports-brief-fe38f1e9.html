@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>平博体育 · 了解与导览</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #faf7f2;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: #2e2b27;
+            line-height: 1.7;
+            padding: 2rem 1.2rem;
+        }
+
+        .page {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fffdf9;
+            border-radius: 28px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+            padding: 2.5rem 2rem;
+        }
+
+        @media (max-width: 480px) {
+            .page {
+                padding: 1.8rem 1.2rem;
+            }
+            body {
+                padding: 0.8rem;
+            }
+        }
+
+        .hero {
+            margin-bottom: 2.5rem;
+        }
+
+        .hero h1 {
+            font-size: 2.2rem;
+            font-weight: 500;
+            letter-spacing: -0.02em;
+            color: #1f1c19;
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: #5b554e;
+            max-width: 90%;
+        }
+
+        .lead {
+            font-size: 1.05rem;
+            margin: 1.8rem 0 2rem 0;
+            padding: 1.2rem 1.5rem;
+            background: #f3efe8;
+            border-left: 5px solid #b7a48b;
+            border-radius: 0 12px 12px 0;
+            color: #3b352f;
+        }
+
+        .section-title {
+            font-size: 1.4rem;
+            font-weight: 500;
+            margin: 2.2rem 0 1rem 0;
+            padding-bottom: 0.4rem;
+            border-bottom: 2px solid #e3dbd0;
+            color: #2c2722;
+        }
+
+        .advantage-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 1.2rem 0 1.8rem 0;
+        }
+
+        .advantage-item {
+            flex: 1 1 180px;
+            background: #f7f2eb;
+            padding: 1.2rem 1rem;
+            border-radius: 16px;
+            border: 1px solid #e9dfd4;
+            transition: box-shadow 0.2s;
+        }
+
+        .advantage-item strong {
+            display: block;
+            font-weight: 600;
+            font-size: 1.05rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .advantage-item p {
+            font-size: 0.95rem;
+            color: #4f4842;
+            margin: 0;
+        }
+
+        .note-box {
+            background: #ede8e0;
+            padding: 1.2rem 1.6rem;
+            border-radius: 20px;
+            margin: 2rem 0;
+            font-size: 0.98rem;
+            color: #3c352e;
+        }
+
+        .faq-summary {
+            margin: 2rem 0 1.8rem 0;
+        }
+
+        .faq-item {
+            margin-bottom: 0.8rem;
+        }
+
+        .faq-q {
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 0.15rem;
+        }
+
+        .faq-a {
+            color: #4d463f;
+            padding-left: 0.5rem;
+            border-left: 2px solid #ccc3b7;
+            padding: 0.3rem 0 0.3rem 0.8rem;
+            margin: 0.1rem 0 0.6rem 0;
+            font-size: 0.95rem;
+        }
+
+        .footer-links {
+            margin-top: 2.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e2d8cc;
+            font-size: 0.95rem;
+            color: #5c544b;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .footer-links a {
+            color: #6b5e50;
+            text-decoration: none;
+            border-bottom: 1px dotted #b7aa9b;
+        }
+
+        .footer-links a:hover {
+            border-bottom: 1px solid #6b5e50;
+        }
+
+        .inline-link {
+            color: #6b5e50;
+            text-decoration: none;
+            border-bottom: 1px solid #c2b3a3;
+            transition: border-color 0.15s;
+        }
+
+        .inline-link:hover {
+            border-bottom: 1px solid #3b352f;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #e7ded3;
+            margin: 1.8rem 0;
+        }
+
+        .small-note {
+            color: #7a7066;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+
+    <div class="hero">
+        <h1>平博体育 · 快速认识</h1>
+        <p>一个简洁的信息落脚点，帮你在进入之前先了解它是什么。</p>
+    </div>
+
+    <div class="lead">
+        如果你曾打开一个页面，却半天搞不清它到底提供什么——那这个页面正是为此而写。下文从用途、特点到常见疑问，尽量用朴实的语言帮你建立一幅轮廓。
+    </div>
+
+    <!-- 优势区 -->
+    <div class="section-title">主要特点</div>
+    <div class="advantage-grid">
+        <div class="advantage-item">
+            <strong>结构清晰</strong>
+            <p>页面布局偏重信息层级，方便快速定位自己需要的板块。</p>
+        </div>
+        <div class="advantage-item">
+            <strong>内容集中</strong>
+            <p>围绕体育相关主题展开，入口集中，减少跳转分散感。</p>
+        </div>
+        <div class="advantage-item">
+            <strong>风格中性</strong>
+            <p>视觉上不过度包装，更强调可用性与阅读流畅度。</p>
+        </div>
+    </div>
+
+    <!-- 说明区 -->
+    <div class="section-title">它面向什么样的人</div>
+    <p>简单来说，如果你正在寻找一个聚焦体育资讯、赛事动向或相关服务的线上落脚点，<a href="https://portal-pingbosports.com" class="inline-link">平博体育</a> 可能正好覆盖这一类需求。它不追求花哨的界面，而是把内容与导航放在较靠前的位置。</p>
+
+    <p style="margin-top: 1rem;">
+        从实际使用角度看，你对一个网站的期待越具体，越容易判断它是否适合自己。比如浏览近期赛事摘要、查看分类信息、或了解某个体育项目的动态——这些在站内都设置了对应版块。站内导航依据体育类别做了分组，节省大量逐页翻找的时间。
+    </p>
+
+    <!-- 引用/提示框 -->
+    <div class="note-box">
+        ⚡ 一点提示：初次访问时不妨先浏览顶部导航或分类索引，通常能很快判断信息组织是否符合自己的习惯。如果发现某个板块没有立即显示内容，可能是部分页面仍在完善，或需要从主入口进入具体频道。
+    </div>
+
+    <!-- FAQ 摘要 -->
+    <div class="section-title">常见疑问摘要</div>
+    <div class="faq-summary">
+        <div class="faq-item">
+            <div class="faq-q">这个网站主要提供什么？</div>
+            <div class="faq-a">一个整合体育相关信息的门户式页面。内容偏重赛事、动态和资源索引，不涉及博彩或违规内容。</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q">需要注册或登录才能浏览吗？</div>
+            <div class="faq-a">大部分内容无需登录即可阅读。部分互动或订阅功能可能需要账号，具体以页面提示为准。</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q">信息更新频率如何？</div>
+            <div class="faq-a">建议以实际页面显示为准，不同板块更新节奏不一定相同，通常赛事相关模块变动会稍快一些。</div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- 底部链接区 -->
+    <div class="footer-links">
+        <span>如需直接进入，这里是 <a href="https://portal-pingbosports.com">平博体育</a> 的主地址</span>
+        <span class="small-note">· 信息页 · 非官方声明</span>
+    </div>
+
+    <div style="margin-top: 1rem; font-size: 0.85rem; color: #968c81; border-top: 1px solid #ede5da; padding-top: 1.2rem;">
+        本页仅为介绍性摘要，所有内容均基于公开页面信息整理。页面结构与细节以实际站内为准。
+    </div>
+
+</div>
+</body>
+</html>
